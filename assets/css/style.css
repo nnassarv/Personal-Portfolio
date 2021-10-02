@@ -1,0 +1,289 @@
+:root {
+/* This is the color pallet for this site */
+/* CSS HEX */
+    --imperial-red: #e63946ff;
+    --white: #f1faeeff;
+    --soft-blue: #a8dadcff;
+    --mid-blue: #457b9dff;
+    --dark-blue: #1d3557ff;
+}
+/* body general style */
+body {
+    background-color: var(--white);
+    display: block;    
+}
+
+/* 
+    NAV-BAR STYLE 
+*/
+
+/* header style */
+.header {
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    background-image: url(/homework/week-2/homework-week-2/assets/images/palm-tree-background.jpeg);
+    background-position:top;
+    background-size: cover;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* logo style */
+.logo {
+    font-size: 12px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+    border: 1px solid white;
+    min-width: 150px;
+    text-align: center;
+}
+
+/* nav bar style */
+.header nav {
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* nav bar options style */
+.header nav ul li {
+    /* border: 1px solid white; */
+    background: var(--dark-blue);
+    margin: 3px;
+    min-width: 120px;
+    list-style: none;
+    text-align: center;
+    flex: 1 1 20%;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.header nav ul li:hover {
+    text-shadow: 0 0 10px var(--white);
+}
+
+/* 
+    ABOUT ME section 
+*/
+
+/* about me container */
+.about-me {
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+/* about me title */
+.about-me-title {
+    color: var(--white);
+    text-shadow: 0 0 20px black;
+    border: 1px;
+    border-radius: 10px 0 0 10px;
+    padding: 5px;
+    margin: 0px;
+    width: 250px;
+    height: 150px;
+    background-image: url(/homework/week-2/homework-week-2/assets/images/beach-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: block;
+}
+
+/* about me info */
+.about-me-text {
+    border: 1px dotted red;
+    padding: 5px;
+    margin: 0px;
+    width: 70%;
+    text-align: left;
+    flex: 1 1 70%;
+}
+
+
+/* 
+    MY WORK section 
+*/
+/* my work container */
+.my-work {
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+/* my work title */
+.my-work-title {
+    color: var(--white);
+    text-shadow: 0 0 20px black;
+    border: 1px;
+    border-radius: 10px 0 0 10px;
+    padding: 5px;
+    margin: 0px;
+    width: 250px;
+    height: 150px;
+    background-image: url(/homework/week-2/homework-week-2/assets/images/satelite-tower-background.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    display: block;
+    align-self: flex-start;
+}
+
+/* my work = my projects */
+.projects {
+    border: 1px dotted red;
+    padding: 5px;
+    margin: 0px;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* style of the project cards */
+.project {
+    border: dotted 1px green;
+    margin: 0;
+    width: 35%;
+    height: auto;
+    flex: 1 1 35%;
+}
+
+.project:hover {
+    background: var(--mid-blue);
+
+}
+
+/* title of the project */
+.project-title {
+    color: red;
+}
+
+#project-1 {
+    width: 70%;
+    flex: 1 1 70%;
+}
+
+/* 
+    MY CONTACT section
+*/
+/* my contact container */
+.my-contact {
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+/* my contact title */
+.my-contact-title {
+    color: var(--white);
+    text-shadow: 0 0 20px black;
+    border: 1px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: 250px;
+    height: 150px;
+    background-image: url(/homework/week-2/homework-week-2/assets/images/orange-old-phone-background.jpeg);
+    background-size: cover;
+    background-position: center 90%;
+    text-align: center;
+    display: block;
+}
+
+/* my contact info */
+.contact-media {
+    /* border: 1px solid red; */
+    padding: 5px;
+    margin: 5px;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+}
+
+.social-media img {
+    /* border: solid 1px green; */
+    margin: 1px;
+    width: 40px;
+    height: auto;
+    flex: 1 1 5%;
+}
+
+.social-media:hover {
+    transform: scale3d(1.2,1.2,1.2);
+}
+
+/* footer a {
+    color: var(--dark-blue);
+    font-size: x-small;
+    text-decoration: none;
+} */
+
+@media screen and (max-width: 700px) {
+    /* .header {
+        flex-flow: column wrap;
+        justify-content: center;
+        align-content: center;
+    } */
+    .logo {
+        display: flex;
+        align-content: center;
+    }
+    .header nav {
+        flex-flow: column wrap;
+        align-content: center;
+    }
+    .about-me {
+        flex-flow: column wrap;
+        align-content: center;
+    }
+    .about-me-text {
+        width: auto;
+    }
+    .my-work {
+        flex-flow: column wrap;
+        align-content: center;
+    }
+    .projects {
+        flex-flow: column wrap;
+        align-content: center;
+        width: auto;
+        height: auto;
+    }
+    .project {
+        min-width: 100%;
+    }
+    .my-contact {
+        flex-flow: column wrap;
+    }
+    .contact-media {
+        flex-flow: column wrap;
+    }
+    .social-media {
+        width: auto;
+    }
+}
