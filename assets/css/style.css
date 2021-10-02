@@ -57,7 +57,6 @@ body {
 
 /* nav bar options style */
 .header nav ul li {
-    /* border: 1px solid white; */
     background: var(--dark-blue);
     margin: 3px;
     min-width: 120px;
@@ -108,9 +107,10 @@ a {
 
 /* about me info */
 .about-me-text {
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
     padding: 5px;
-    margin: 0px;
+    padding-left: 20px;
+    margin-left: 0px;
     width: 70%;
     text-align: left;
     flex: 1 1 70%;
@@ -150,8 +150,8 @@ a {
 
 /* my work = my projects */
 .projects {
-    border: 1px dotted red;
-    padding: 5px;
+    /* border: 1px dotted red; */
+    /* padding: 5px; */
     margin: 0px;
     width: 70%;
     height: auto;
@@ -161,7 +161,7 @@ a {
 
 /* style of the project cards */
 .project {
-    border: dotted 1px green;
+    /* border: dotted 1px green; */
     margin: 0;
     width: 35%;
     height: auto;
@@ -169,18 +169,65 @@ a {
 }
 
 .project:hover {
-    background: var(--mid-blue);
+    /* background: var(--mid-blue); */
+    box-shadow: 0 0 50px 15px var(--dark-blue) inset;
 
 }
 
 /* title of the project */
 .project-title {
-    color: red;
+    color: var(--white);
+    background: var(--dark-blue);
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: 200px;
 }
 
 #project-1 {
+    background-image: url(/homework/week-2/homework-week-2/assets/images/project-1-mini-project.jpeg);
     width: 70%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
     flex: 1 1 70%;
+}
+
+#project-2 {
+    background-image: url(/homework/week-2/homework-week-2/assets/images/project-1-mini-project.jpeg);
+    width: 35%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    flex: 1 1 35%;
+}
+
+#project-3 {
+    background-image: url(/homework/week-2/homework-week-2/assets/images/project-1-mini-project.jpeg);
+    width: 35%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    flex: 1 1 35%;
+}
+
+#project-4 {
+    background-image: url(/homework/week-2/homework-week-2/assets/images/project-1-mini-project.jpeg);
+    width: 35%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    flex: 1 1 35%;
+}
+
+#project-5 {
+    background-image: url(/homework/week-2/homework-week-2/assets/images/project-1-mini-project.jpeg);
+    width: 35%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    flex: 1 1 35%;
 }
 
 /* 
@@ -203,7 +250,7 @@ a {
     border: 1px;
     border-radius: 10px;
     padding: 5px;
-    margin: 5px;
+    /* margin: 5px; */
     width: 250px;
     height: 150px;
     background-image: url(/homework/week-2/homework-week-2/assets/images/orange-old-phone-background.jpeg);
