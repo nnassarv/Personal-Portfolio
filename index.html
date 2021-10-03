@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nabil Nassar Portfolio</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@100;300&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- style sheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/homework/week-2/homework-week-2/assets/css/style.css">
 </head>
 
@@ -12,22 +16,22 @@
     <header class="header">
         <!-- logo -->
         <div class="logo">
-            <h1>Portfolio</h1>
+            <h2>Portfolio</h2>
         </div>
         
         <!-- nav bar -->
         <nav>
             <ul>
-                <li><a href="#">about me</a></li>
-                <li><a href="#">my work</a></li>
-                <li><a href="#">my contact</a></li>
+                <li><a class="menu-item" href="#about-me-anchor"><span>01.</span> about me</a></li>
+                <li><a class="menu-item" href="#my-work-anchor"><span>02.</span> my work</a></li>
+                <li><a class="menu-item" href="#my-contact-anchor"><span>03.</span> my contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <!-- ABOUT ME -->
-        <div class="about-me">
+<!-- ABOUT ME -->
+        <div class="about-me" id="about-me-anchor">
             <!-- about me title section on the left -->
             <div class="about-me-title">
                 <h2>about me</h2>
@@ -35,15 +39,20 @@
 
             <!-- text with info and intro about myself / this is regular text -->
             <div class="about-me-text">
+                <h1>
+                    <b>Hi!</b>
+                </h1>
+                <h2>
+                    Welcome to my portfolio page
+                </h2>
                 <p>
-                    Hi! Welcome to my portfolio page <br>
                     My name is Nabil. I was born in Honduras and I currently live in "poor-but-sexy" Berlin.
                 </p>
             </div>
         </div>
         
-        <!-- MY WORK -->
-        <div class="my-work">
+<!-- MY WORK -->
+        <div class="my-work" id="my-work-anchor">
             <!-- my work title section on the left -->
             <div class="my-work-title">
                 <h2>my work</h2>
@@ -51,51 +60,80 @@
 
             <!-- this is where all projects are configured and then located on the right side -->
             <div class="projects">
+                
                 <!-- this is project #1 -->
                 <div class="project" id="project-1">
-                    <!-- <p>background project 1</p> -->
-                    <div class="project-title">
-                        <p><strong>title project 1</strong></p>
-                    </div>
+                    <a href="https://github.com/nnassarv/mini-project-week-1">
+                        <div class="project-title">
+                            <p>
+                                <b>
+                                    Mini Project Week 1
+                                </b>
+                            </p> 
+                        </div>
+                    </a>
                 </div>
 
                 <!-- this is project #2 -->
                 <div class="project" id="project-2">
-                    <div class="project-title">
-                        <p><strong>title project 2</strong></p>
-                    </div>
+                    <a href="https://www.who.int/">
+                        <div class="project-title">
+                            <p>
+                                <b>
+                                    WHO Info App                        
+                                </b>
+                            </p> 
+                        </div>
+                    </a>
                 </div>
 
                 <!-- this is project #3 -->
                 <div class="project" id="project-3">
-                    <div class="project-title">
-                        <p><strong>title project 3</strong></p>
-                    </div>
+                    <a href="https://www.equalrights.org/">
+                        <div class="project-title">
+                            <p>
+                                <b>
+                                    Equality Forum                        
+                                </b>
+                            </p> 
+                        </div>
+                    </a>
                 </div>
 
                 <!-- this is project #4 -->
                 <div class="project" id="project-4">
-                    <div class="project-title">
-                        <p><strong>title project 4</strong></p>
-                    </div>
+                    <a href="https://climate.nasa.gov/">
+                        <div class="project-title">
+                            <p>
+                                <b>
+                                    Climate Change Project                        
+                                </b>
+                            </p> 
+                        </div>
+                    </a>
                 </div>
 
                 <!-- this is project #5 -->
                 <div class="project" id="project-5">
-                    <div class="project-title">
-                        <p><strong>title project 5</strong></p>
-                    </div>
+                    <a href="https://www.unicef.org/">
+                        <div class="project-title">
+                            <p>
+                                <b>
+                                    Unicef Website                            
+                                </b>
+                            </p> 
+                        </div>
+                    </a>
                 </div>
 
             </div>
         </div>
         
-        <!-- MY CONTACT -->
-        <div class="my-contact">
+<!-- MY CONTACT -->
+        <div class="my-contact" id="my-contact-anchor">
             <!-- my contact title section on the left side -->
             <div class="my-contact-title">
                 <h2>my contact</h2>
-                <!-- background by Photo by "https://unsplash.com/@quinoal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" on "https://unsplash.com" -->
             </div>
 
             <!-- social media icons to redirect to the corresponding contact platform -->
@@ -103,32 +141,28 @@
                 <!-- this icon open the local mail program and sends an email to my address -->
                 <div class="social-media" id="email">
                     <a href="mailto:nabilnassarvelasquez@gmail.com">
-                        <img src="/homework/week-2/homework-week-2/assets/images/icon-email.png" alt="email icon">
-                        <!-- icon made by "https://www.freepik.com" from "https://www.flaticon.com/" -->
+                        <i class="far fa-envelope fa-2x"></i>
                     </a>
                 </div>
                 
                 <!-- this icon takes the visitor to my github page -->
                 <div class="social-media" id="github">
                     <a href="https://github.com/nnassarv">
-                        <img src="/homework/week-2/homework-week-2/assets/images/icon-github.png" alt="github icon">
-                        <!-- icon made by "https://www.freepik.com" from "https://www.flaticon.com/" -->
+                        <i class="fab fa-github fa-2x"></i>
                     </a>
                 </div>
 
                 <!-- this icon takes the visitor to my linkedin page -->
                 <div class="social-media" id="linkedin">
                     <a href="https://www.linkedin.com/in/nabil-nassar-velasquez-46053528/">
-                        <img src="/homework/week-2/homework-week-2/assets/images/icon-linkedin.png" alt="linkedin icon">
-                        <!-- icon made by "https://www.freepik.com" from "https://www.flaticon.com/" -->
+                        <i class="fab fa-linkedin fa-2x"></i>
                     </a>
                 </div>
 
                 <!-- this icon takes the visitor to twitter home page -->
                 <div class="social-media" id="twitter">
                     <a href="https://twitter.com/home">
-                        <img src="/homework/week-2/homework-week-2/assets/images/icon-twitter.png" alt="twitter icon">
-                        <!-- icon made by "https://www.freepik.com" from "https://www.flaticon.com/" -->
+                        <i class="fab fa-twitter-square fa-2x"></i>
                     </a>
                 </div>
             </div>
@@ -138,7 +172,7 @@
 </body>
 
 <footer>
-    <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+    <p>Copyright Nabil Nassar 2k21</p>
 </footer>
 
 </html>

@@ -6,10 +6,15 @@
     --soft-blue: #a8dadcff;
     --mid-blue: #457b9dff;
     --dark-blue: #1d3557ff;
+    --oxford-blue: #0b132bff;
+    --space-cadet: #1c2541ff;
+    --independence: #3a506bff;
+    --maximum-blue-green: #5bc0beff;
+    --turquoise: #6fffe9ff;
 }
 /* body general style */
 body {
-    background-color: var(--white);
+    background-color: var(--oxford-blue);
     display: block;    
 }
 
@@ -20,58 +25,80 @@ body {
 /* header style */
 .header {
     height: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--dark-blue);
+    /* font-family: Arial, Helvetica, sans-serif; */
     color: var(--white);
-    background-image: url(/homework/week-2/homework-week-2/assets/images/palm-tree-background.jpeg);
-    background-position:top;
-    background-size: cover;
+    background: var(--oxford-blue);
     display: flex;
-    flex-flow: row wrap;
+    justify-content: space-between;
+    /* background-image: url(/homework/week-2/homework-week-2/assets/images/palm-tree-background.jpeg); */
+    /* background-position:top; */
+    /* background-size: cover; */
+    /* flex-flow: row wrap; */
 }
 
 /* logo style */
 .logo {
-    font-size: 12px;
-    width: 35%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 1.6vw;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    /* font-family: 'Roboto', sans-serif; */
+    color: var(--turquoise);
+    width: 25%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
-.logo h1 {
-    border: 1px solid white;
-    min-width: 150px;
+.logo h2 {
+    /* border: 1px solid var(--turquoise); */
+    /* min-width: 50%; */
     text-align: center;
+    padding: 10px;
 }
 
 /* nav bar style */
 .header nav {
-    width: 65%;
+    min-width: 75%;
     height: auto;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav span {
+    color: var(--maximum-blue-green);
+    /* font-family: 'Share Tech Mono', monospace; */
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.7;
+    font-weight:bolder;
 }
 
 /* nav bar options style */
 .header nav ul li {
-    background: var(--dark-blue);
-    margin: 3px;
-    min-width: 120px;
+    /* background: var(--dark-blue); */
+    /* margin: 3px; */
+    min-width: 15vw;
     list-style: none;
     text-align: center;
     flex: 1 1 20%;
 }
 
 a {
-    color: var(--white);
+    color: var(--turquoise);
     text-decoration: none;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.5vw;
 }
 
-.header nav ul li:hover {
-    text-shadow: 0 0 10px var(--white);
+.menu-item:hover span, .menu-item:hover {
+    /* text-shadow: 1 1 10px var(--soft-blue); */
+    color: coral;
 }
 
 /* 
@@ -90,28 +117,37 @@ a {
 
 /* about me title */
 .about-me-title {
-    color: var(--white);
-    text-shadow: 0 0 20px black;
-    border: 1px;
-    border-radius: 10px 0 0 10px;
-    padding: 5px;
+    color: var(--turquoise);
+    font-family: 'Share Tech Mono', monospace;
+    /* border: 1px; */
+    /* border-right: 1px solid var(--turquoise); */
+    /* border-radius: 10px 0 0 10px; */
+    /* padding: 5px; */
+    /* padding-top: 40px; */
     margin: 0px;
-    width: 250px;
-    height: 150px;
-    background-image: url(/homework/week-2/homework-week-2/assets/images/beach-background.jpeg);
-    background-size: cover;
-    background-position: center;
+    width: 25%;
+    height: auto;
+    background: var(--oxford-blue);
+    /* background-image: url(/homework/week-2/homework-week-2/assets/images/beach-background.jpeg); */
+    /* background-size: cover; */
+    /* background-position: center; */
     text-align: center;
-    display: block;
+    /* display: block; */
+    /* margin-top: 40px; */
+    /* box-sizing: border-box; */
 }
 
 /* about me info */
 .about-me-text {
     /* border: 1px dotted red; */
-    padding: 5px;
+    /* padding: 5px; */
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
     padding-left: 20px;
     margin-left: 0px;
-    width: 70%;
+    border-left: 1px solid var(--turquoise);
+    width: 75%;
+    height: auto;
     text-align: left;
     flex: 1 1 70%;
 }
@@ -132,17 +168,19 @@ a {
 
 /* my work title */
 .my-work-title {
-    color: var(--white);
-    text-shadow: 0 0 20px black;
-    border: 1px;
-    border-radius: 10px 0 0 10px;
-    padding: 5px;
+    color: var(--turquoise);
+    font-family: 'Share Tech Mono', monospace;
     margin: 0px;
-    width: 250px;
-    height: 150px;
-    background-image: url(/homework/week-2/homework-week-2/assets/images/satelite-tower-background.jpeg);
-    background-size: cover;
-    background-position: bottom;
+    width: 25%;
+    height: auto;
+    background: var(--oxford-blue);
+    /* border: 1px; */
+    /* border-right: 1px solid var(--turquoise); */
+    /* border-radius: 10px 0 0 10px; */
+    /* padding: 5px; */
+    /* background-image: url(/homework/week-2/homework-week-2/assets/images/satelite-tower-background.jpeg); */
+    /* background-size: cover; */
+    /* background-position: bottom; */
     text-align: center;
     display: block;
     align-self: flex-start;
@@ -150,8 +188,9 @@ a {
 
 /* my work = my projects */
 .projects {
-    /* border: 1px dotted red; */
+    /* border: 4px solid var(--dark-blue); */
     /* padding: 5px; */
+    /* border-left: 1px solid var(-maximum-blue-green); */
     margin: 0px;
     width: 70%;
     height: auto;
@@ -161,70 +200,87 @@ a {
 
 /* style of the project cards */
 .project {
-    /* border: dotted 1px green; */
+    /* border: 1px solid var(--dark-blue); */
     margin: 0;
+    box-shadow: 0px 0px 200px 50px var(--space-cadet) inset;
+    border: 1px solid var(--maximum-blue-green);
     width: 35%;
     height: auto;
     flex: 1 1 35%;
 }
 
 .project:hover {
-    /* background: var(--mid-blue); */
-    box-shadow: 0 0 50px 15px var(--dark-blue) inset;
+    box-shadow: 0 0 0 0;
+}
 
+.project-title:hover {
+    background: coral;
+    color: var(--white);
 }
 
 /* title of the project */
 .project-title {
-    color: var(--white);
-    background: var(--dark-blue);
-    width: 150px;
-    height: 40px;
-    text-align: center;
+    color: var(--space-cadet);
+    font-family: 'Share Tech Mono', monospace;
+    background: var(--turquoise);
+    max-width: 50%;
+    min-height: 10%;
+    padding: 0.1% 0 0.1% 1%;
+    text-align: left;
     position: relative;
-    top: 200px;
+    top: 70%;
 }
 
+.project-title a {
+    color: var(--space-cadet);
+    font-size: smaller;
+}
+
+/* mini project week 1 */
 #project-1 {
     background-image: url(/homework/week-2/homework-week-2/assets/images/project-1-mini-project.jpeg);
     width: 70%;
-    height: 300px;
+    height: 25vh;
     background-size: cover;
     background-position: center;
     flex: 1 1 70%;
 }
 
+/* who app */
 #project-2 {
-    background-image: url(/homework/week-2/homework-week-2/assets/images/project-1-mini-project.jpeg);
+    background-image: url(/homework/week-2/homework-week-2/assets/images/who-info-background.jpeg);
     width: 35%;
-    height: 300px;
+    height: 25vh;
     background-size: cover;
-    background-position: center;
+    background-position: center 10%;
     flex: 1 1 35%;
 }
 
+/* equality */
 #project-3 {
-    background-image: url(/homework/week-2/homework-week-2/assets/images/project-1-mini-project.jpeg);
+    background-image: url(/homework/week-2/homework-week-2/assets/images/still-fighting-for-this-shit.jpeg);
     width: 35%;
-    height: 300px;
+    height: 25vh;
     background-size: cover;
-    background-position: center;
+    background-position: top 10%;
     flex: 1 1 35%;
 }
 
+/* climate change */
 #project-4 {
-    background-image: url(/homework/week-2/homework-week-2/assets/images/project-1-mini-project.jpeg);
+    background-image: url(/homework/week-2/homework-week-2/assets/images/planet-over-profit.jpeg);
     width: 35%;
-    height: 300px;
+    height: 25vh;
     background-size: cover;
-    background-position: center;
+    background-position: top 10%;
     flex: 1 1 35%;
 }
 
+/* unicef */
 #project-5 {
-    background-image: url(/homework/week-2/homework-week-2/assets/images/project-1-mini-project.jpeg);
+    background-image: url(/homework/week-2/homework-week-2/assets/images/unicef.jpeg);
     width: 35%;
-    height: 300px;
+    height: 25vh;
     background-size: cover;
     background-position: center;
     flex: 1 1 35%;
@@ -245,17 +301,20 @@ a {
 
 /* my contact title */
 .my-contact-title {
-    color: var(--white);
-    text-shadow: 0 0 20px black;
-    border: 1px;
-    border-radius: 10px;
-    padding: 5px;
+    color: var(--turquoise);
+    font-family: 'Share Tech Mono', monospace;
+    margin: 0px;
+    width: 25%;
+    height: auto;
+    background: var(--oxford-blue);
+    /* border: 1px; */
+    /* border-radius: 10px; */
+    /* padding: 5px; */
     /* margin: 5px; */
-    width: 250px;
-    height: 150px;
-    background-image: url(/homework/week-2/homework-week-2/assets/images/orange-old-phone-background.jpeg);
-    background-size: cover;
-    background-position: center 90%;
+    /* background: var(--dark-blue); */
+    /* background-image: url(/homework/week-2/homework-week-2/assets/images/orange-old-phone-background.jpeg); */
+    /* background-size: cover; */
+    /* background-position: center 90%; */
     text-align: center;
     display: block;
 }
@@ -272,23 +331,28 @@ a {
     justify-content:space-evenly;
 }
 
-.social-media img {
-    /* border: solid 1px green; */
+i {
+    /* border: solid 1px green;
     margin: 1px;
-    width: 40px;
+    width: ;
     height: auto;
-    flex: 1 1 5%;
+    flex: 1 1 5%; */
 }
 
-.social-media:hover {
+i:hover {
     transform: scale3d(1.2,1.2,1.2);
+    color: coral;
+    /* text-shadow: 0 0 2px white; */
 }
 
-/* footer a {
-    color: var(--dark-blue);
-    font-size: x-small;
-    text-decoration: none;
-} */
+footer {
+    background: var(--independence);
+    color: var(--maximum-blue-green);
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    padding: 1em;
+    /* font-size: smaller; */
+}
 
 @media screen and (max-width: 700px) {
     /* .header {
@@ -296,7 +360,8 @@ a {
         justify-content: center;
         align-content: center;
     } */
-    .logo {
+
+    /* .logo {
         display: flex;
         align-content: center;
     }
@@ -332,5 +397,28 @@ a {
     }
     .social-media {
         width: auto;
+    } */
+
+    * {
+        flex-flow: column wrap;
+    }
+    .header {
+        flex-direction: column;
+        align-self: center;
+        justify-items: center;
+    }
+    .projects {
+        flex-flow: column wrap;
+    }
+
+    .project {
+        /* flex: 1 1 80%; */
+        min-width: 20rem;
+        min-height: 20rem;
+        align-self: center;
+
+    }
+    .my-work-title {
+        align-self: center;
     }
 }
