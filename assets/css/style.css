@@ -25,15 +25,10 @@ body {
 /* header style */
 .header {
     height: auto;
-    /* font-family: Arial, Helvetica, sans-serif; */
     color: var(--white);
     background: var(--oxford-blue);
     display: flex;
     justify-content: space-between;
-    /* background-image: url(/homework/week-2/homework-week-2/assets/images/palm-tree-background.jpeg); */
-    /* background-position:top; */
-    /* background-size: cover; */
-    /* flex-flow: row wrap; */
 }
 
 /* logo style */
@@ -41,17 +36,11 @@ body {
     font-size: 1.6vw;
     font-family: 'Share Tech Mono', monospace;
     text-align: center;
-    /* font-family: 'Roboto', sans-serif; */
     color: var(--turquoise);
     width: 25%;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 .logo h2 {
-    /* border: 1px solid var(--turquoise); */
-    /* min-width: 50%; */
     text-align: center;
     padding: 10px;
 }
@@ -66,14 +55,15 @@ body {
     align-items: center;
 }
 
+/* style of the menu items list */
 nav ul {
     display: flex;
     justify-content: center;
 }
 
+/* style for the numbering of the menu items in tha nav bar */
 nav span {
     color: var(--maximum-blue-green);
-    /* font-family: 'Share Tech Mono', monospace; */
     font-family: 'Roboto', sans-serif;
     opacity: 0.7;
     font-weight:bolder;
@@ -81,14 +71,13 @@ nav span {
 
 /* nav bar options style */
 .header nav ul li {
-    /* background: var(--dark-blue); */
-    /* margin: 3px; */
     min-width: 15vw;
     list-style: none;
     text-align: center;
     flex: 1 1 20%;
 }
 
+/* style of menu items in the nav bar */
 a {
     color: var(--turquoise);
     text-decoration: none;
@@ -96,8 +85,8 @@ a {
     font-size: 1.5vw;
 }
 
+/* style for hover over menu items in the nav bar */
 .menu-item:hover span, .menu-item:hover {
-    /* text-shadow: 1 1 10px var(--soft-blue); */
     color: coral;
 }
 
@@ -119,28 +108,15 @@ a {
 .about-me-title {
     color: var(--turquoise);
     font-family: 'Share Tech Mono', monospace;
-    /* border: 1px; */
-    /* border-right: 1px solid var(--turquoise); */
-    /* border-radius: 10px 0 0 10px; */
-    /* padding: 5px; */
-    /* padding-top: 40px; */
     margin: 0px;
     width: 25%;
     height: auto;
     background: var(--oxford-blue);
-    /* background-image: url(/homework/week-2/homework-week-2/assets/images/beach-background.jpeg); */
-    /* background-size: cover; */
-    /* background-position: center; */
     text-align: center;
-    /* display: block; */
-    /* margin-top: 40px; */
-    /* box-sizing: border-box; */
 }
 
 /* about me info */
 .about-me-text {
-    /* border: 1px dotted red; */
-    /* padding: 5px; */
     color: var(--white);
     font-family: 'Roboto', sans-serif;
     padding-left: 20px;
@@ -174,13 +150,6 @@ a {
     width: 25%;
     height: auto;
     background: var(--oxford-blue);
-    /* border: 1px; */
-    /* border-right: 1px solid var(--turquoise); */
-    /* border-radius: 10px 0 0 10px; */
-    /* padding: 5px; */
-    /* background-image: url(/homework/week-2/homework-week-2/assets/images/satelite-tower-background.jpeg); */
-    /* background-size: cover; */
-    /* background-position: bottom; */
     text-align: center;
     display: block;
     align-self: flex-start;
@@ -188,9 +157,6 @@ a {
 
 /* my work = my projects */
 .projects {
-    /* border: 4px solid var(--dark-blue); */
-    /* padding: 5px; */
-    /* border-left: 1px solid var(-maximum-blue-green); */
     margin: 0px;
     width: 70%;
     height: auto;
@@ -200,7 +166,6 @@ a {
 
 /* style of the project cards */
 .project {
-    /* border: 1px solid var(--dark-blue); */
     margin: 0;
     box-shadow: 0px 0px 200px 50px var(--space-cadet) inset;
     border: 1px solid var(--maximum-blue-green);
@@ -209,16 +174,18 @@ a {
     flex: 1 1 35%;
 }
 
+/* style for hover over project box / image */
 .project:hover {
     box-shadow: 0 0 0 0;
 }
 
+/* style for hover over project title box */
 .project-title:hover {
     background: coral;
     color: var(--white);
 }
 
-/* title of the project */
+/* box with project title */
 .project-title {
     color: var(--space-cadet);
     font-family: 'Share Tech Mono', monospace;
@@ -231,6 +198,7 @@ a {
     top: 70%;
 }
 
+/* style for text inside the project title box */
 .project-title a {
     color: var(--space-cadet);
     font-size: smaller;
@@ -307,21 +275,12 @@ a {
     width: 25%;
     height: auto;
     background: var(--oxford-blue);
-    /* border: 1px; */
-    /* border-radius: 10px; */
-    /* padding: 5px; */
-    /* margin: 5px; */
-    /* background: var(--dark-blue); */
-    /* background-image: url(/homework/week-2/homework-week-2/assets/images/orange-old-phone-background.jpeg); */
-    /* background-size: cover; */
-    /* background-position: center 90%; */
     text-align: center;
     display: block;
 }
 
 /* my contact info */
 .contact-media {
-    /* border: 1px solid red; */
     padding: 5px;
     margin: 5px;
     width: 70%;
@@ -331,29 +290,22 @@ a {
     justify-content:space-evenly;
 }
 
-i {
-    /* border: solid 1px green;
-    margin: 1px;
-    width: ;
-    height: auto;
-    flex: 1 1 5%; */
-}
-
+/* style for hover over social media icons */
 i:hover {
     transform: scale3d(1.2,1.2,1.2);
     color: coral;
-    /* text-shadow: 0 0 2px white; */
 }
 
+/* footer style */
 footer {
     background: var(--independence);
     color: var(--maximum-blue-green);
     font-family: 'Share Tech Mono', monospace;
     text-align: center;
     padding: 1em;
-    /* font-size: smaller; */
 }
 
+/* media screen config for screen size starting at 700px width */
 @media screen and (max-width: 700px) {
     * {
         flex-flow: column wrap;
@@ -370,7 +322,6 @@ footer {
     }
 
     .project {
-        /* flex: 1 1 80%; */
         min-width: 20rem;
         min-height: 20rem;
         align-self: center;
