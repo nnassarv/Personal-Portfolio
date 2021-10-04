@@ -10,6 +10,15 @@ Some of the links and images used for "my work" are placeholders and demo items.
 ## Design
 For this website I tried using a simple color pallet with contrasting colors and dark background.
 
+I also learned how to use a cdn and add it to my project so I can retrieve icons. In this case I integrated the font awesome cdn and I used some of its free icons for my social media and contact details.
+
 
 ## Media Screen
 A media screen has been defined at 700px width in order to enable flexibility for smaller screens / mobile devices.
+
+## End Result
+As a result, I was able to build a simple to navigate website where icons, menu options and projects all have hover over effects to highlight them and the color scheme is uniform all accross. 
+
+Here are some screenshots of the deployed site:
+![website with top menu and project section] (/images/hw-screenshot-1.png)
+![website with projects section, contact me and footer] (/images/hw-screenshot-2.png)

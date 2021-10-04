@@ -246,7 +246,7 @@ a {
 
 /* unicef */
 #project-5 {
-    background-image: url(/homework/week-2/homework-week-2/docs/images/unicef.jpeg);
+    background-image: url(./images/unicef.jpeg);
     width: 35%;
     height: 25vh;
     background-size: cover;
