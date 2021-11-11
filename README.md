@@ -1,8 +1,5 @@
 #homework-week-2
 
-**Note:** I had to change my folder structure into "/docs" because the site was deploying without the css styles. After some research, i found on stackoverflow that I can deploy from a "/docs" folder instead of main. This seemed to fix it. On the other hand, I was not able to keep the "/assets/css" and "/assets/images" structure as it is recommended in class.
-
-
 ## This week's homework is about creating my first web app from scratch.
 
 The website is the first version of my portfolio. It will be updated and improved as the course goes on and I learn new technologies, frameworks, tricks, and other cool things.
