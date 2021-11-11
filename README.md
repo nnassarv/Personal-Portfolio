@@ -1,24 +1,35 @@
-#homework-week-2
 
-## This week's homework is about creating my first web app from scratch.
+## Description
 
-The website is the first version of my portfolio. It will be updated and improved as the course goes on and I learn new technologies, frameworks, tricks, and other cool things.
+The first version of my portfolio website was created as the homework assignment on Week 2 of the bootcamp.
+It has been updated as part of the week 8 homework assignment.
 
-Some of the links and images used for "my work" are placeholders and demo items. Real projects will be added as I create other homework and mini-projects.
+> ### Links:
+- [Website](https://nnassarv.github.io/Personal-Portfolio/)
+- [GitHub Repository](https://github.com/nnassarv/Personal-Portfolio)
+
+> ### Some of the updates include:
+- Using Bootstrap as a CSS framework
+- Update the portfolio projects to real assignments and projects
+- Refactor the website
 
 
 ## Design
-For this website I tried using a simple color pallet with contrasting colors and dark background.
+For this website I used a simple color pallet with contrasting colors and dark background.
+The first version of the site was done completely with CSS.
+The second version is done with **Bootstrap** to help make it ***mobile-first***
 
-I also learned how to use a cdn and add it to my project so I can retrieve icons. In this case I integrated the font awesome cdn and I used some of its free icons for my social media and contact details.
+> ### Front-end tech
+- CSS
+- Bootstrap
+- Google Fonts
+- Font Awesome
 
 
-## Media Screen
-A media screen has been defined at 700px width in order to enable flexibility for smaller screens / mobile devices.
+## Mobile first
+The first version of the website was made using media screens to make the app responsive to mobile or smaller screens. The second version addresses these requirements by leveraging Bootstrap's column + row framework.
 
-## End Result
-As a result, I was able to build a simple to navigate website where icons, menu options and projects all have hover over effects to highlight them and the color scheme is uniform all accross. 
 
-Here are some screenshots of the deployed site:
-![website with top menu and project section] (./images/hw-screenshot-1.png)
-![website with projects section, contact me and footer] (./homework-week-2/docs/images/hw-screenshot-2.png)
+> #### Here are some screenshots of the first version:
+- ![website with top menu and project section](./assets/images/hw-screenshot-1.png) 
+- ![website with projects section, contact me and footer](./assets/images/hw-screenshot-2.png)
