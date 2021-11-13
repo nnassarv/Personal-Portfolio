@@ -1,180 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@100;300&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@100;300&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
     <!-- cdn link to awesome font -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css"
+    />
     <!-- style sheets -->
-    <link rel="stylesheet" href="./style.css">
-    <title>Nabil Nassar Portfolio</title>
-</head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- title and favicon -->
+    <title>Nabil's Portfolio</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/beach-with-umbrella.png"
+      type="image/gif"
+    />
+  </head>
 
-<body>
-    <header class="header">
-        <!-- logo -->
-        <div class="logo">
-            <h2>Portfolio</h2>
-        </div>
-        
-        <!-- nav bar -->
-        <nav>
-            <ul>
-                <li><a class="menu-item" href="#about-me-anchor"><span>01.</span> about me</a></li>
-                <li><a class="menu-item" href="#my-work-anchor"><span>02.</span> my work</a></li>
-                <li><a class="menu-item" href="#my-contact-anchor"><span>03.</span> my contact</a></li>
+  <body>
+    <!-- header -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- logo -->
+            <div class="col">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="./assets/images/beach-with-umbrella.png"
+                  alt="beach with umbrella icon"
+                  width="24"
+                  height="24"
+                  class="d-inline-block align-text-top"
+                />
+                Portfolio
+              </a>
+            </div>
+          </div>
+          <!-- navigation options -->
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="navbar-nav flex-row-reverse">
+              <li class="nav-item">
+                <a class="menu-item" href="#about-me-anchor"
+                  ><span>01.</span> about me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="menu-item" href="#my-work-anchor"
+                  ><span>02.</span> my work</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="menu-item" href="#my-contact-anchor"
+                  ><span>03.</span> my contact</a
+                >
+              </li>
             </ul>
-        </nav>
-    </header>
+          </div>
+        </div>
+      </nav>
+    </div>
 
     <main>
-<!-- ABOUT ME -->
-        <div class="about-me" id="about-me-anchor">
-            <!-- about me title section on the left -->
-            <div class="about-me-title">
-                <h2>about me</h2>
-            </div>
+      <!-- ABOUT ME -->
+      <div class="about-me" id="about-me-anchor">
+        <!-- about me title section on the left -->
+        <div class="about-me-title">
+          <h2>about me</h2>
+        </div>
 
-            <!-- text with info and intro about myself / this is regular text -->
-            <div class="about-me-text">
-                <h1>
-                    <b>Hi!</b>
-                </h1>
-                <h2>
-                    Welcome to my portfolio page
-                </h2>
+        <!-- text with info and intro about myself / this is regular text -->
+        <div class="about-me-text">
+          <h1>
+            <b>Hi!</b>
+          </h1>
+          <h2>Welcome to my portfolio page</h2>
+          <p>
+            My name is Nabil. I was born in Honduras and I currently live in
+            "poor-but-sexy" Berlin.
+          </p>
+        </div>
+      </div>
+
+      <!-- MY WORK -->
+      <div class="my-work" id="my-work-anchor">
+        <!-- my work title section on the left -->
+        <div class="my-work-title">
+          <h2>my work</h2>
+        </div>
+
+        <!-- this is where all projects are configured and then located on the right side -->
+        <div class="projects">
+          
+
+          <!-- this is project #2 -->
+          <div class="project" id="project-2">
+            <a href="https://www.who.int/">
+              <div class="project-title">
                 <p>
-                    My name is Nabil. I was born in Honduras and I currently live in "poor-but-sexy" Berlin.
+                  <b> WHO Info App </b>
                 </p>
-            </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- this is project #3 -->
+          <div class="project" id="project-3">
+            <a href="https://www.equalrights.org/">
+              <div class="project-title">
+                <p>
+                  <b> Equality Forum </b>
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- this is project #4 -->
+          <div class="project" id="project-4">
+            <a href="https://climate.nasa.gov/">
+              <div class="project-title">
+                <p>
+                  <b> Climate Change Project </b>
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- this is project #5 -->
+          <div class="project" id="project-5">
+            <a href="https://www.unicef.org/">
+              <div class="project-title">
+                <p>
+                  <b> Unicef Website </b>
+                </p>
+              </div>
+            </a>
+          </div>
         </div>
-        
-<!-- MY WORK -->
-        <div class="my-work" id="my-work-anchor">
-            <!-- my work title section on the left -->
-            <div class="my-work-title">
-                <h2>my work</h2>
-            </div>
+      </div>
 
-            <!-- this is where all projects are configured and then located on the right side -->
-            <div class="projects">
-                
-                <!-- this is project #1 -->
-                <div class="project" id="project-1">
-                    <a href="https://github.com/nnassarv/mini-project-week-1">
-                        <div class="project-title">
-                            <p>
-                                <b>
-                                    Mini Project Week 1
-                                </b>
-                            </p> 
-                        </div>
-                    </a>
-                </div>
-
-                <!-- this is project #2 -->
-                <div class="project" id="project-2">
-                    <a href="https://www.who.int/">
-                        <div class="project-title">
-                            <p>
-                                <b>
-                                    WHO Info App                        
-                                </b>
-                            </p> 
-                        </div>
-                    </a>
-                </div>
-
-                <!-- this is project #3 -->
-                <div class="project" id="project-3">
-                    <a href="https://www.equalrights.org/">
-                        <div class="project-title">
-                            <p>
-                                <b>
-                                    Equality Forum                        
-                                </b>
-                            </p> 
-                        </div>
-                    </a>
-                </div>
-
-                <!-- this is project #4 -->
-                <div class="project" id="project-4">
-                    <a href="https://climate.nasa.gov/">
-                        <div class="project-title">
-                            <p>
-                                <b>
-                                    Climate Change Project                        
-                                </b>
-                            </p> 
-                        </div>
-                    </a>
-                </div>
-
-                <!-- this is project #5 -->
-                <div class="project" id="project-5">
-                    <a href="https://www.unicef.org/">
-                        <div class="project-title">
-                            <p>
-                                <b>
-                                    Unicef Website                            
-                                </b>
-                            </p> 
-                        </div>
-                    </a>
-                </div>
-
-            </div>
+      <!-- MY CONTACT -->
+      <div class="my-contact" id="my-contact-anchor">
+        <!-- my contact title section on the left side -->
+        <div class="my-contact-title">
+          <h2>my contact</h2>
         </div>
-        
-<!-- MY CONTACT -->
-        <div class="my-contact" id="my-contact-anchor">
-            <!-- my contact title section on the left side -->
-            <div class="my-contact-title">
-                <h2>my contact</h2>
-            </div>
 
-            <!-- social media icons to redirect to the corresponding contact platform -->
-            <div class="contact-media">
-                <!-- this icon open the local mail program and sends an email to my address -->
-                <div class="social-media" id="email">
-                    <a href="mailto:nabilnassarvelasquez@gmail.com">
-                        <i class="far fa-envelope fa-2x"></i>
-                    </a>
-                </div>
-                
-                <!-- this icon takes the visitor to my github page -->
-                <div class="social-media" id="github">
-                    <a href="https://github.com/nnassarv">
-                        <i class="fab fa-github fa-2x"></i>
-                    </a>
-                </div>
+        <!-- social media icons to redirect to the corresponding contact platform -->
+        <div class="contact-media">
+          <!-- this icon open the local mail program and sends an email to my address -->
+          <div class="social-media" id="email">
+            <a href="mailto:nabilnassarvelasquez@gmail.com">
+              <i class="far fa-envelope fa-2x"></i>
+            </a>
+          </div>
 
-                <!-- this icon takes the visitor to my linkedin page -->
-                <div class="social-media" id="linkedin">
-                    <a href="https://www.linkedin.com/in/nabil-nassar-velasquez-46053528/">
-                        <i class="fab fa-linkedin fa-2x"></i>
-                    </a>
-                </div>
+          <!-- this icon takes the visitor to my github page -->
+          <div class="social-media" id="github">
+            <a href="https://github.com/nnassarv">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </div>
 
-                <!-- this icon takes the visitor to twitter home page -->
-                <div class="social-media" id="twitter">
-                    <a href="https://twitter.com/home">
-                        <i class="fab fa-twitter-square fa-2x"></i>
-                    </a>
-                </div>
-            </div>
+          <!-- this icon takes the visitor to my linkedin page -->
+          <div class="social-media" id="linkedin">
+            <a
+              href="https://www.linkedin.com/in/nabil-nassar-velasquez-46053528/"
+            >
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+          </div>
+
+          <!-- this icon takes the visitor to twitter home page -->
+          <div class="social-media" id="twitter">
+            <a href="https://twitter.com/home">
+              <i class="fab fa-twitter-square fa-2x"></i>
+            </a>
+          </div>
         </div>
+      </div>
     </main>
-    
-</body>
+  </body>
 
-<!-- this is a standard copyright footer -->
-<footer>
+  <!-- this is a standard copyright footer -->
+  <footer>
     <p>Copyright Nabil Nassar 2k21</p>
-</footer>
-
+  </footer>
 </html>

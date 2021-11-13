@@ -23,13 +23,13 @@ body {
 */
 
 /* header style */
-.header {
+/* .header {
     height: auto;
     color: var(--white);
     background: var(--oxford-blue);
     display: flex;
     justify-content: space-between;
-}
+} */
 
 /* logo style */
 .logo {
@@ -37,7 +37,7 @@ body {
     font-family: 'Share Tech Mono', monospace;
     text-align: center;
     color: var(--turquoise);
-    width: 25%;
+    /* width: 25%; */
 }
 
 .logo h2 {
@@ -46,20 +46,20 @@ body {
 }
 
 /* nav bar style */
-.header nav {
+/* .header nav {
     min-width: 75%;
     height: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-}
+} */
 
 /* style of the menu items list */
-nav ul {
+/* nav ul {
     display: flex;
     justify-content: center;
-}
+} */
 
 /* style for the numbering of the menu items in tha nav bar */
 nav span {
@@ -71,10 +71,10 @@ nav span {
 
 /* nav bar options style */
 .header nav ul li {
-    min-width: 15vw;
+    /* min-width: 15vw; */
     list-style: none;
     text-align: center;
-    flex: 1 1 20%;
+    /* flex: 1 1 20%; */
 }
 
 /* style of menu items in the nav bar */
