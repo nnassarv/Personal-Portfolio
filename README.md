@@ -35,8 +35,3 @@ The first version of the website was made using media screens to make the app re
 ![website with top menu and project section](./assets/images/Nabil_s_Portfolio.png) 
 - This is a view of a smaller screen (mobile) where the navigation has been compacted into a hamburger menu and still the "scrollspy" indicates to the reader the current location.
 ![website with projects section, contact me and footer](./assets/images/Nabil_s_Portfolio-2.png)
-
-
-> #### Here are some screenshots of the first version:
-- ![website with top menu and project section](./assets/images/hw-screenshot-1.png) 
-- ![website with projects section, contact me and footer](./assets/images/hw-screenshot-2.png)
