@@ -46,12 +46,14 @@
     />
   </head>
 
+  <!-- BODY (with scrollspy) -->
   <body data-bs-spy="scroll" data-bs-target="#navbar-scrollspy">
     <!-- header -->
     <nav
       id="navbar-scrollspy"
       class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
     >
+      <!-- main navbar container -->
       <div class="container-fluid">
         <a class="navbar-brand px-5" href="#">
           <img
@@ -63,18 +65,19 @@
           />
           Portfilio</a
         >
+        <!-- button to show toggle when the screen is reduced -->
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
+          data-bs-target="#navbarToggler"
+          aria-controls="navbarToggler"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse row" id="navbarTogglerDemo02">
+        <div class="collapse navbar-collapse row" id="navbarToggler">
           <ul
             class="
               navbar-nav
@@ -108,8 +111,8 @@
     </nav>
 
     <main>
-      <!-- add the scrollspy to highlight the sectio in the menu as we scroll -->
-        <div
+      <!-- add the scrollspy to highlight the section in the menu as we scroll -->
+      <div
         data-bs-spy="scroll"
         data-bs-target="#navbar-scrollspy"
         data-bs-offset="0"
@@ -145,49 +148,262 @@
 
           <!-- this is where all projects are configured and then located on the right side -->
           <div class="projects">
-            <!-- this is project #2 -->
-            <div class="project" id="project-2">
-              <a href="https://www.who.int/">
-                <div class="project-title">
-                  <p>
-                    <b> WHO Info App </b>
-                  </p>
+            <!-- Project #1: The Boring App -->
+            <div class="project mb-3" id="project-1">
+              <a href="https://github.com/nnassarv/TheBoringApp">
+                <div
+                  id="carousel-boringApp"
+                  class="carousel carousel-dark slide carousel-fade"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="./assets/images/boring-app-welcome-page.png"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./assets/images/make-a-choice.jpeg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./assets/images/random-youtube.png"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="project-title">
+                      <p>
+                        <b>The Boring App</b>
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel-boringApp"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carousel-boringApp"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
               </a>
             </div>
 
-            <!-- this is project #3 -->
-            <div class="project" id="project-3">
-              <a href="https://www.equalrights.org/">
-                <div class="project-title">
-                  <p>
-                    <b> Equality Forum </b>
-                  </p>
-                </div>
-              </a>
+            <!-- Project #2: Weather Dashboard -->
+
+            <div class="project mb-3" id="project-2">
+                <a href="https://github.com/nnassarv/Weather-Dashboard-w6">
+                    <div
+                    id="carousel-weatherDashboard"
+                    class="carousel carousel slide carousel-fade"
+                    data-bs-ride="carousel"
+                    >
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img
+                            src="./assets/images/My_Weather_Dashboard-1.png"
+                            class="d-block w-100"
+                            alt="..."
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                            src="./assets/images/My_Weather_Dashboard-2.png"
+                            class="d-block w-100"
+                            alt="..."
+                            />
+                        </div>
+                        <div class="project-title">
+                            <p>
+                                <b>Weather Dashboard</b>
+                            </p>
+                        </div>
+                    </div>
+                    <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel-weatherDashboard"
+                    data-bs-slide="prev"
+                    >
+                    <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carousel-weatherDashboard"
+                data-bs-slide="next"
+                >
+                <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </a>
             </div>
 
-            <!-- this is project #4 -->
-            <div class="project" id="project-4">
-              <a href="https://climate.nasa.gov/">
-                <div class="project-title">
-                  <p>
-                    <b> Climate Change Project </b>
-                  </p>
-                </div>
-              </a>
+            <!-- Project #3: MovieFlix -->
+
+            <div class="project mb-3" id="project-3">
+                <a href="https://github.com/nnassarv/movie-app">
+                    <div
+                    id="carousel-movieflix"
+                    class="carousel carousel slide carousel-fade"
+                    data-bs-ride="carousel"
+                    >
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img
+                            src="./assets/images/Movie_App-1.png"
+                            class="d-block w-100"
+                            alt="..."
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                            src="./assets/images/Movie_App-2.png"
+                            class="d-block w-100"
+                            alt="..."
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                            src="./assets/images/Movie_App-3.png"
+                            class="d-block w-100"
+                            alt="..."
+                            />
+                        </div>
+                        <div class="project-title">
+                            <p>
+                                <b>Work Scheduler</b>
+                            </p>
+                        </div>
+                    </div>
+                    <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel-movieflix"
+                    data-bs-slide="prev"
+                    >
+                    <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carousel-movieflix"
+                data-bs-slide="next"
+                >
+                <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </a>
             </div>
 
-            <!-- this is project #5 -->
-            <div class="project" id="project-5">
-              <a href="https://www.unicef.org/">
-                <div class="project-title">
-                  <p>
-                    <b> Unicef Website </b>
-                  </p>
-                </div>
-              </a>
+            <!-- Project #4: Work Scheduler -->
+
+                <div class="project mb-3" id="project-4">
+                    <a href="https://github.com/nnassarv/Work-Scheduler-w5">
+                        <div
+                        id="carousel-workScheduler"
+                        class="carousel carousel-dark slide carousel-fade"
+                        data-bs-ride="carousel"
+                        >
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img
+                                src="./assets/images/work-scheduler-1.png"
+                                class="d-block w-100"
+                                alt="..."
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                src="./assets/images/work-scheduler-2.png"
+                                class="d-block w-100"
+                                alt="..."
+                                />
+                            </div>
+                           
+                            
+                            <div class="project-title">
+                                <p>
+                                    <b>Work Scheduler</b>
+                                </p>
+                            </div>
+                        </div>
+                        <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carousel-workScheduler"
+                        data-bs-slide="prev"
+                        >
+                        <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carousel-workScheduler"
+                    data-bs-slide="next"
+                    >
+                    <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
+        </a>
+                </div>
+
+            
+
+    
+    
+</a>
+</div>
+
+
+            
           </div>
         </div>
 

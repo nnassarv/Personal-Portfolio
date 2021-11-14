@@ -159,8 +159,8 @@ a {
 /* my work = my projects */
 .projects {
     margin: 0px;
-    width: 70%;
-    height: auto;
+    width: 55vw;
+    /* height: 50vh; */
     display: flex;
     flex-flow: row wrap;
 }
@@ -168,9 +168,9 @@ a {
 /* style of the project cards */
 .project {
     margin: 0;
-    box-shadow: 0px 0px 200px 50px var(--space-cadet) inset;
+    /* box-shadow: 0px 0px 200px 50px var(--space-cadet) inset; */
     border: 1px solid var(--maximum-blue-green);
-    width: 35%;
+    /* width: 35%; */
     height: auto;
     flex: 1 1 35%;
 }
@@ -196,7 +196,13 @@ a {
     padding: 0.1% 0 0.1% 1%;
     text-align: left;
     position: relative;
+    z-index: 1000;
     top: 70%;
+}
+
+.carousel-inner {
+    height: 45vh;
+    /* width: 65vw; */
 }
 
 /* style for text inside the project title box */
@@ -205,45 +211,47 @@ a {
     font-size: smaller;
 }
 
-/* who app */
+
+/* The Boring App */
+#project-1 {
+    /* background-image: url(./assets/images/make-a-choice.jpeg);
+    width: 55vw;
+    height: 65vh;
+    background-size: cover; */
+    background-position: top;
+    flex: 1 1 65vw;
+}
+
+/* Weather Dashboard */
 #project-2 {
-    background-image: url(./images/who-info-background.jpeg);
-    width: 75%;
-    height: 45vh;
-    background-size: cover;
-    background-position: center 10%;
-    flex: 1 1 75%;
+    /* background-image: url(./assets/images/make-a-choice.jpeg);
+    width: 55vw;
+    height: 65vh;
+    background-size: cover; */
+    background-position: top;
+    flex: 1 1 65vw;
 }
 
-/* equality */
+/* MovieFlix */
 #project-3 {
-    background-image: url(./images/still-fighting-for-this-shit.jpeg);
-    width: 75%;
-    height: 45vh;
-    background-size: cover;
-    background-position: center 10%;
-    flex: 1 1 75%;
+    /* background-image: url(./assets/images/make-a-choice.jpeg);
+    width: 55vw;
+    height: 65vh;
+    background-size: cover; */
+    background-position: top;
+    flex: 1 1 65vw;
 }
 
-/* climate change */
+/* Work Scheduler */
 #project-4 {
-    background-image: url(./images/planet-over-profit.jpeg);
-    width: 75%;
-    height: 45vh;
+    /* background-image: url(./assets/images/make-a-choice.jpeg);
+    width: 55vw;
+    height: 65vh; */
     background-size: cover;
-    background-position: center 10%;
-    flex: 1 1 75%;
+    background-position: top;
+    flex: 1 1 65vw; 
 }
 
-/* unicef */
-#project-5 {
-    background-image: url(./images/unicef.jpeg);
-    width: 75%;
-    height: 45vh;
-    background-size: cover;
-    background-position: center 10%;
-    flex: 1 1 75%;
-}
 
 /* 
     MY CONTACT section
@@ -297,7 +305,7 @@ footer {
 }
 
 /* media screen config for screen size starting at 700px width */
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
     * {
         flex-flow: column wrap;
     }
@@ -322,4 +330,4 @@ footer {
     .my-work-title {
         align-self: center;
     }
-}
+} */
