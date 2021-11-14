@@ -24,13 +24,13 @@ body {
 */
 
 /* header style */
-/* .header {
+.nav {
     height: auto;
     color: var(--white);
     background: var(--oxford-blue);
     display: flex;
-    justify-content: space-between;
-} */
+}
+
 
 /* logo style */
 .logo {
@@ -46,21 +46,7 @@ body {
     padding: 10px;
 }
 
-/* nav bar style */
-/* .header nav {
-    min-width: 75%;
-    height: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-} */
 
-/* style of the menu items list */
-/* nav ul {
-    display: flex;
-    justify-content: center;
-} */
 
 /* style for the numbering of the menu items in tha nav bar */
 nav span {
@@ -91,6 +77,50 @@ a {
     color: coral;
 }
 
+.bg-light {
+    --bs-bg-opacity: 0;
+}
+
+#mainSection {
+    position: relative;
+}
+
+#navbar-scrollspy {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logoContainer {
+    margin-top: 0;
+    background-color: var(--oxford-blue);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.navbar-light .navbar-brand {
+    color: var(--turquoise);
+    font-size:x-large;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: coral;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--turquoise);
+}
+
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--white)
+    opacity: 1;
+}
+
+.nav-link.active span {
+    color: var(--white);
+    opacity: 1;
+}
+
 /* 
     ABOUT ME section 
 */
@@ -114,6 +144,10 @@ a {
     height: auto;
     background: var(--oxford-blue);
     text-align: center;
+}
+
+.about-me-title h2, .my-work-title h2, .my-contact-title h2 {
+    font-size:medium;
 }
 
 /* about me info */
@@ -282,7 +316,7 @@ a {
 .contact-media {
     padding: 5px;
     margin: 5px;
-    width: 70%;
+    width: 55%;
     height: auto;
     display: flex;
     flex-flow: row wrap;
