@@ -15,7 +15,8 @@
 /* body general style */
 body {
     background-color: var(--oxford-blue);
-    display: block;    
+    display: block;   
+    position: relative; 
 }
 
 /* 
@@ -204,54 +205,44 @@ a {
     font-size: smaller;
 }
 
-/* mini project week 1 */
-#project-1 {
-    background-image: url(./images/project-1-mini-project.jpeg);
-    width: 70%;
-    height: 25vh;
-    background-size: cover;
-    background-position: center;
-    flex: 1 1 70%;
-}
-
 /* who app */
 #project-2 {
     background-image: url(./images/who-info-background.jpeg);
-    width: 35%;
-    height: 25vh;
+    width: 75%;
+    height: 45vh;
     background-size: cover;
     background-position: center 10%;
-    flex: 1 1 35%;
+    flex: 1 1 75%;
 }
 
 /* equality */
 #project-3 {
     background-image: url(./images/still-fighting-for-this-shit.jpeg);
-    width: 35%;
-    height: 25vh;
+    width: 75%;
+    height: 45vh;
     background-size: cover;
-    background-position: top 10%;
-    flex: 1 1 35%;
+    background-position: center 10%;
+    flex: 1 1 75%;
 }
 
 /* climate change */
 #project-4 {
     background-image: url(./images/planet-over-profit.jpeg);
-    width: 35%;
-    height: 25vh;
+    width: 75%;
+    height: 45vh;
     background-size: cover;
-    background-position: top 10%;
-    flex: 1 1 35%;
+    background-position: center 10%;
+    flex: 1 1 75%;
 }
 
 /* unicef */
 #project-5 {
     background-image: url(./images/unicef.jpeg);
-    width: 35%;
-    height: 25vh;
+    width: 75%;
+    height: 45vh;
     background-size: cover;
-    background-position: center;
-    flex: 1 1 35%;
+    background-position: center 10%;
+    flex: 1 1 75%;
 }
 
 /* 
