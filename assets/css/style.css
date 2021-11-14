@@ -38,7 +38,6 @@ body {
     font-family: 'Share Tech Mono', monospace;
     text-align: center;
     color: var(--turquoise);
-    /* width: 25%; */
 }
 
 .logo h2 {
@@ -46,22 +45,17 @@ body {
     padding: 10px;
 }
 
-
-
 /* style for the numbering of the menu items in tha nav bar */
 nav span {
-    color: var(--maximum-blue-green);
     font-family: 'Roboto', sans-serif;
-    opacity: 0.7;
+    opacity: 1;
     font-weight:bolder;
 }
 
 /* nav bar options style */
 .header nav ul li {
-    /* min-width: 15vw; */
     list-style: none;
     text-align: center;
-    /* flex: 1 1 20%; */
 }
 
 /* style of menu items in the nav bar */
@@ -97,19 +91,31 @@ a {
     padding-bottom: 1em;
 }
 
+#logoText:hover {
+    color: var(--turquoise);
+}
+
+#aboutMeText:hover, #myWorkText:hover, #myContactText:hover  {
+    color: coral;
+}
+
 .navbar-light .navbar-brand {
     color: var(--turquoise);
     font-size:x-large;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background-color: coral;
+    background-color: var(--independence);
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: var(--turquoise);
 }
 
+.navbar-toggler {
+    background-color:turquoise;
+    opacity: ;
+}
 
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--white)
@@ -209,11 +215,6 @@ a {
     flex: 1 1 35%;
 }
 
-/* style for hover over project box / image */
-.project:hover {
-    box-shadow: 0 0 0 0;
-}
-
 /* style for hover over project title box */
 .project-title:hover {
     background: coral;
@@ -248,40 +249,24 @@ a {
 
 /* The Boring App */
 #project-1 {
-    /* background-image: url(./assets/images/make-a-choice.jpeg);
-    width: 55vw;
-    height: 65vh;
-    background-size: cover; */
     background-position: top;
     flex: 1 1 65vw;
 }
 
 /* Weather Dashboard */
 #project-2 {
-    /* background-image: url(./assets/images/make-a-choice.jpeg);
-    width: 55vw;
-    height: 65vh;
-    background-size: cover; */
     background-position: top;
     flex: 1 1 65vw;
 }
 
 /* MovieFlix */
 #project-3 {
-    /* background-image: url(./assets/images/make-a-choice.jpeg);
-    width: 55vw;
-    height: 65vh;
-    background-size: cover; */
     background-position: top;
     flex: 1 1 65vw;
 }
 
 /* Work Scheduler */
 #project-4 {
-    /* background-image: url(./assets/images/make-a-choice.jpeg);
-    width: 55vw;
-    height: 65vh; */
-    background-size: cover;
     background-position: top;
     flex: 1 1 65vw; 
 }
