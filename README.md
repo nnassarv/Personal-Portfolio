@@ -19,15 +19,22 @@ For this website I used a simple color pallet with contrasting colors and dark b
 The first version of the site was done completely with CSS.
 The second version is done with **Bootstrap** to help make it ***mobile-first***
 
-> ### Front-end tech
+> ### Tech used
+- HTML
 - CSS
-- Bootstrap
+- Bootstrap + Bootstrap JS
 - Google Fonts
 - Font Awesome
 
 
 ## Mobile first
 The first version of the website was made using media screens to make the app responsive to mobile or smaller screens. The second version addresses these requirements by leveraging Bootstrap's column + row framework.
+
+> ### Here are some screenshots of the new version
+- This is the portfolio improved with some navigation and visual guides as the user scrolls through the page:
+![website with top menu and project section](./assets/images/Nabil_s_Portfolio.png) 
+- This is a view of a smaller screen (mobile) where the navigation has been compacted into a hamburger menu and still the "scrollspy" indicates to the reader the current location.
+![website with projects section, contact me and footer](./assets/images/Nabil_s_Portfolio-2.png)
 
 
 > #### Here are some screenshots of the first version:

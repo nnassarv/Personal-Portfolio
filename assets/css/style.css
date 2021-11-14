@@ -200,7 +200,6 @@ a {
 .projects {
     margin: 0px;
     width: 55vw;
-    /* height: 50vh; */
     display: flex;
     flex-flow: row wrap;
 }
@@ -208,9 +207,7 @@ a {
 /* style of the project cards */
 .project {
     margin: 0;
-    /* box-shadow: 0px 0px 200px 50px var(--space-cadet) inset; */
     border: 1px solid var(--maximum-blue-green);
-    /* width: 35%; */
     height: auto;
     flex: 1 1 35%;
 }
@@ -322,31 +319,3 @@ footer {
     text-align: center;
     padding: 1em;
 }
-
-/* media screen config for screen size starting at 700px width */
-/* @media screen and (max-width: 700px) {
-    * {
-        flex-flow: column wrap;
-    }
-
-    .header {
-        flex-direction: column;
-        align-self: center;
-        justify-items: center;
-    }
-
-    .projects {
-        flex-flow: column wrap;
-    }
-
-    .project {
-        min-width: 20rem;
-        min-height: 20rem;
-        align-self: center;
-
-    }
-
-    .my-work-title {
-        align-self: center;
-    }
-} */
